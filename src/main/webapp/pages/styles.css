@@ -3,6 +3,7 @@
     min-width: 15rem;
     border: none;
     border-radius: 0 0 5px 5px;
+    padding: 15px;
 }
 
 .form-group-non-margin {
@@ -64,4 +65,8 @@ main {
 .card-header img {
     width: 64px;
     height: 64px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
 }
