@@ -58,7 +58,7 @@
             <h1 class="jumbotron-heading">Welcome to eShop!</h1>
             <p class="lead text-muted">Here you can find the quality products at the best price.</p>
             <p>
-                <a href="./search.html" class="btn btn-primary my-2">Search products</a>
+                <a href="search.html" class="btn btn-primary my-2">Search products</a>
             </p>
         </div>
     </section>
