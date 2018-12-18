@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles.css">
 
     <title>eShop</title>
 
 </head>
 <body>
 
-<div id="header_page"></div>
+<jsp:include page="./header.jsp" />
 
 <main role="main">
     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -31,15 +31,15 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="http://www.codetab.org/wp-content/uploads/slider-apple.jpg" class="carousel-img"
+                <img src="https://apple-help.org/wp-content/uploads/2018/08/iTunes.jpg" class="carousel-img"
                      alt="Los Angeles">
             </div>
             <div class="carousel-item">
-                <img src="http://www.codetab.org/wp-content/uploads/slider-apple.jpg" class="carousel-img"
+                <img src="https://apple-help.org/wp-content/uploads/2018/08/iTunes.jpg" class="carousel-img"
                      alt="Chicago">
             </div>
             <div class="carousel-item">
-                <img src="http://www.codetab.org/wp-content/uploads/slider-apple.jpg" class="carousel-img"
+                <img src="https://apple-help.org/wp-content/uploads/2018/08/iTunes.jpg" class="carousel-img"
                      alt="New York">
             </div>
         </div>
@@ -58,7 +58,7 @@
             <h1 class="jumbotron-heading">Welcome to eShop!</h1>
             <p class="lead text-muted">Here you can find the quality products at the best price.</p>
             <p>
-                <a href="search.html" class="btn btn-primary my-2">Search products</a>
+                <a href="/products/search" class="btn btn-primary my-2">Search products</a>
             </p>
         </div>
     </section>

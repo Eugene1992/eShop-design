@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles.css">
 
     <title>eShop</title>
 
 </head>
 <body>
 
-<div id="header_page"></div>
+<jsp:include page="./header.jsp" />
 
 <br>
 <main>
@@ -73,16 +73,16 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
-                            <li class="list-group-item" title="Click for details"><a href="./product_details.html">Cras justo odio</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Dapibus ac facilisis in</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Morbi leo risus</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Porta ac consectetur ac</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Vestibulum at eros</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Cras justo odio</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Dapibus ac facilisis in</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Morbi leo risus</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Porta ac consectetur ac</a></li>
-                            <li class="list-group-item"><a href="./product_details.html">Vestibulum at eros</a></li>
+                            <li class="list-group-item" title="Click for details"><a href="/products/details">Cras justo odio</a></li>
+                            <li class="list-group-item"><a href="/products/details">Dapibus ac facilisis in</a></li>
+                            <li class="list-group-item"><a href="/products/details">Morbi leo risus</a></li>
+                            <li class="list-group-item"><a href="/products/details">Porta ac consectetur ac</a></li>
+                            <li class="list-group-item"><a href="/products/details">Vestibulum at eros</a></li>
+                            <li class="list-group-item"><a href="/products/details">Cras justo odio</a></li>
+                            <li class="list-group-item"><a href="/products/details">Dapibus ac facilisis in</a></li>
+                            <li class="list-group-item"><a href="/products/details">Morbi leo risus</a></li>
+                            <li class="list-group-item"><a href="/products/details">Porta ac consectetur ac</a></li>
+                            <li class="list-group-item"><a href="/products/details">Vestibulum at eros</a></li>
                         </ul>
                         <br>
                         <ul class="pagination float-right">
